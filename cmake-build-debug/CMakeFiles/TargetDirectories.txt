@@ -1,3 +1,0 @@
-/mnt/c/Users/v-and/.vscode/PyProjects/IHW3/cmake-build-debug/CMakeFiles/IHW3.dir
-/mnt/c/Users/v-and/.vscode/PyProjects/IHW3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/v-and/.vscode/PyProjects/IHW3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
