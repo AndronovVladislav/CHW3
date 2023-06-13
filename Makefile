@@ -7,3 +7,6 @@ build:
 
 testing:
 	./pypart/tester.py
+
+clear:
+	rm GraphAlgorithms/dijkstra GraphAlgorithms/floyd_warshall GraphAlgorithms/ford_bellman

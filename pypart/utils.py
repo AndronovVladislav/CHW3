@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 
 import random
+from copy import deepcopy
 
 
 def generate_complete_graph(n: int) -> list[list[int]]:
-    return [[random.randint(1, 10) if i != j else 0 for j in range(n)] for i in range(n)]
+    ans = [deepcopy([0] * n) for _ in range(n)]
+    for i in range(n):
+        for j in range(i, n):
+            ans[j][i] = ans[i][j] = random.randint(1, 10)
+    return ans
 
 
 def generate_connected_graph(n: int) -> list[list[int]]:
